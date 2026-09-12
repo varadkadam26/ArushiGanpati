@@ -4,45 +4,45 @@
 // ────────────────────────────────────────────────────────────
 
 export const invitation = {
-  familyName: "The Kadam Family",
+  familyName: "कदम परिवार",
 
   // Small mantra shown at the very top of the hero
   mantra: "॥ श्री गणेशाय नमः ॥",
 
-  heroHeadlineTop: "With Grace,",
-  heroHeadlineBottom: "He Arrives.",
+  heroHeadlineTop: "विघ्नहर्त्याचे",
+  heroHeadlineBottom: "आगमन.",
 
-  heroInviteLine: "You Are Invited",
+  heroInviteLine: "सस्नेह निमंत्रण",
 
   // Shown just under the hero invite line
-  heroDateRange: "Sept 14 – Sept 19, 2026",
+  heroDateRange: "१४ सप्टेंबर – १९ सप्टेंबर २०२६",
 
   // Section 02 — The Invitation
   invitationLines: [
-    "With hearts filled with devotion and joy, we invite you to join us in welcoming our beloved Bappa.",
-    "Come, seek His blessings, share in the festivities, and celebrate together.",
+    "अत्यंत आनंदाने आणि भक्तीभावाने आम्ही आपल्याला आमच्या लाडक्या बाप्पाच्या स्वागतासाठी आमंत्रित करत आहोत.",
+    "या उत्सवात सहभागी होऊन बाप्पाचा आशीर्वाद घ्या आणि हा आनंद द्विगुणित करा.",
   ],
 
 
   // Section 03 — Ganpati Details
   details: [
-    { label: "Ganpati Arrival", value: "Monday, 14th August" },
-    { label: "Visarjan", value: "Saturday, 19th September" },
+    { label: "बाप्पाचे आगमन", value: "सोमवार, १४ ऑगस्ट" },
+    { label: "विसर्जन", value: "शनिवार, १९ सप्टेंबर" },
   ],
 
   // Section 04 — Our Home
-  homeHeading: "Where Bappa Resides",
+  homeHeading: "बाप्पाचा मुक्काम",
   address: {
-    line1: "Room.58,2nd Floor,Bldg No.1,B.I.T Bldgs,",
-    line2: "Belasis Road,Opp. Mumbai Central ST Depot,",
-    line3: "Mumbai Central,Mumbai-400008",
+    line1: "रूम क्र. ५८, दुसरा मजला, इमारत क्र. १, बी.आय.टी. बिल्डिंग्स,",
+    line2: "बेलासिस रोड, मुंबई सेंट्रल एसटी डेपो समोर,",
+    line3: "मुंबई सेंट्रल, मुंबई - ४००००८",
   },
 
   // Contact (optional — shown small in footer)
-  contactName: "Mr.Suneet S.Kadam",
-  contactPhone: "+91 9987739666",
+  contactName: "श्री. सुनीत एस. कदम",
+  contactPhone: "+९१ ९९८७७३९६६६",
 
   // Social preview / SEO fallback description
   siteDescription:
-    "With hearts filled with devotion and joy, we invite you to join us in welcoming our beloved Bappa home.",
+    "अत्यंत आनंदाने आणि भक्तीभावाने आम्ही आपल्याला आमच्या लाडक्या बाप्पाच्या स्वागतासाठी आमंत्रित करत आहोत.",
 };

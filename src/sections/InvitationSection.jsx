@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Mushak from "../components/Mushak.jsx";
+import Modak from "../components/Modak.jsx";
 import { invitation } from "../data/config.js";
 
 const reveal = {
@@ -47,7 +47,7 @@ export default function InvitationSection({ reduceMotion }) {
           className="relative flex justify-center"
         >
           <div className="w-full max-w-[180px] aspect-[160/90]">
-            <Mushak reduceMotion={reduceMotion} className="w-full h-full" />
+            <Modak reduceMotion={reduceMotion} className="w-full h-full" />
           </div>
         </motion.div>
       </div>
