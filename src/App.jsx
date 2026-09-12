@@ -19,7 +19,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="relative bg-ink">
+    <div className="relative bg-gradient-to-b from-[#f58045] to-[#e04a6b] min-h-screen">
       <div className="grain" />
       <Entrance reduceMotion={reduceMotion} />
       <Nav />
