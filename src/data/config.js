@@ -39,8 +39,8 @@ export const invitation = {
   },
 
   // Contact (optional — shown small in footer)
-  contactName: "श्री. सुनीत एस. कदम",
-  contactPhone: "+९१ ९९८७७३९६६६",
+  contactName: "श्री. राजेश नारकर",
+  contactPhone: "",
 
   // Social preview / SEO fallback description
   siteDescription:
