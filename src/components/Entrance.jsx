@@ -10,7 +10,7 @@ export default function Entrance({ reduceMotion }) {
       animate={{ opacity: 0 }}
       transition={{ delay: 1.1, duration: 0.7, ease: "easeInOut" }}
       style={{ pointerEvents: "none" }}
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-ink"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-transparent"
     >
       <motion.p
         initial={{ opacity: 0, letterSpacing: "0.1em" }}

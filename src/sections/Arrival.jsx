@@ -20,7 +20,7 @@ export default function Arrival({ reduceMotion }) {
     <section
       id="arrival"
       ref={ref}
-      className="relative min-h-[92svh] w-full flex flex-col items-center justify-center overflow-hidden bg-ink text-ivory px-6 pb-32 pt-20"
+      className="relative min-h-[92svh] w-full flex flex-col items-center justify-center overflow-hidden text-ivory px-6 pb-32 pt-20"
     >
       {/* radial ambient backdrop */}
       <div

@@ -8,7 +8,7 @@ const reveal = {
 
 export default function Details() {
   return (
-    <section id="details" className="relative w-full bg-ink text-ivory py-16 sm:py-20 px-6">
+    <section id="details" className="relative w-full text-ivory py-16 sm:py-20 px-6">
       <div className="max-w-3xl mx-auto">
 
 
