@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import ganpatiImg from "../assets/ganpati.png";
+import ganpatiImg from "../assets/ganpati_hd.jpg";
 
 /**
- * Renders the family-chosen Ganpati illustration (src/assets/ganpati.png)
+ * Renders the family-chosen Ganpati illustration (src/assets/ganpati_hd.jpg)
  * with a soft ambient glow and slow breathing animation.
  */
 export default function GanpatiMark({ className = "" }) {
@@ -11,7 +11,7 @@ export default function GanpatiMark({ className = "" }) {
       <img
         src={ganpatiImg}
         alt="Ganpati"
-        className="relative w-full h-full object-contain [clip-path:inset(0_0_15%_0)]"
+        className="relative w-full h-full object-contain"
         style={{ filter: "brightness(0) invert(1)" }}
       />
     </div>
