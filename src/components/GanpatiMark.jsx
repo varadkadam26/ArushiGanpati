@@ -12,6 +12,7 @@ export default function GanpatiMark({ className = "" }) {
         src={ganpatiImg}
         alt="Ganpati"
         className="relative w-full h-full object-contain [clip-path:inset(0_0_15%_0)]"
+        style={{ filter: "brightness(0) invert(1)" }}
       />
     </div>
   );
