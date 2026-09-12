@@ -29,7 +29,8 @@ html {
 
 body {
   margin: 0;
-  background-color: #f58045;
+  background: linear-gradient(180deg, #ff7527 0%, #f93c66 100%);
+  background-attachment: fixed;
   color: var(--ivory);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
