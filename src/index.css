@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #1e130e;
+  --ivory: #f8ecd4;
+  --sindoor: #c1401f;
+  --copper: #d69a3e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Cormorant Garamond ships old-style numeral glyphs by default, which can
+   render "1" as a slim mark that reads like a roman numeral "i". Force
+   plain lining figures everywhere so numbers always look like numbers. */
+body,
+input,
+textarea {
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1, "onum" 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--ink);
+  color: var(--ivory);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--sindoor);
+  color: var(--ivory);
+}
+
+/* Devanagari needs slightly taller line-height to avoid clipped conjuncts */
+.deva {
+  font-family: "Noto Serif Devanagari", serif;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+
+.hairline {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184, 134, 63, 0.5), transparent);
+}
+
+.grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.045;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
