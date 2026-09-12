@@ -40,7 +40,7 @@ export default function Arrival({ reduceMotion }) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 1 }}
-          className="deva text-copper text-lg sm:text-xl mb-6 tracking-wide"
+          className="deva text-copper text-lg sm:text-xl mb-6"
         >
           {invitation.mantra}
         </motion.p>

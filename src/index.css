@@ -55,7 +55,7 @@ body {
 .deva {
   font-family: "Noto Serif Devanagari", serif;
   line-height: 1.9;
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
 }
 
 .hairline {
