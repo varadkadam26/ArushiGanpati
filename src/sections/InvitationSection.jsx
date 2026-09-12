@@ -11,7 +11,7 @@ export default function InvitationSection({ reduceMotion }) {
   return (
     <section
       id="invitation"
-      className="relative w-full bg-ivory text-umber py-16 sm:py-20 px-6 overflow-hidden"
+      className="relative w-full text-white py-16 sm:py-20 px-6 overflow-hidden"
     >
       <div className="max-w-3xl mx-auto grid gap-8 sm:grid-cols-[1.2fr_0.8fr] items-center">
         <motion.div
@@ -20,7 +20,7 @@ export default function InvitationSection({ reduceMotion }) {
           viewport={{ once: true, amount: 0.4 }}
           variants={{ show: { transition: { staggerChildren: 0.18 } } }}
         >
-          <motion.p variants={reveal} className="text-xs tracking-[0.3em] text-sindoor mb-6">
+          <motion.p variants={reveal} className="text-xs tracking-[0.3em] text-ivory/80 mb-6">
             THE INVITATION
           </motion.p>
 
@@ -29,7 +29,7 @@ export default function InvitationSection({ reduceMotion }) {
               key={i}
               variants={reveal}
               className={`font-display text-2xl sm:text-3xl leading-relaxed mb-6 ${
-                i === 0 ? "text-umber" : "text-umber/70 italic"
+                i === 0 ? "text-white" : "text-white/80 italic"
               }`}
             >
               {line}

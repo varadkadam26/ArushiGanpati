@@ -6,7 +6,7 @@ export default function HomeLocation({ reduceMotion }) {
   return (
     <section
       id="home"
-      className="relative w-full bg-umber text-ivory py-16 sm:py-20 px-6 overflow-hidden"
+      className="relative w-full text-ivory py-16 sm:py-20 px-6 overflow-hidden"
     >
       <div className="absolute -right-16 -bottom-10 w-56 sm:w-72 opacity-[0.10] pointer-events-none">
         <GanpatiMark reduceMotion={true} className="w-full aspect-[260/280]" />

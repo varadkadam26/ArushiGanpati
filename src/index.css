@@ -25,11 +25,20 @@ textarea {
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
   margin: 0;
-  background: linear-gradient(180deg, #ff7527 0%, #f93c66 100%);
+  min-height: 100%;
+  background: linear-gradient(
+    180deg,
+    #ff6a00 0%,
+    #ff4d2e 25%,
+    #f72d56 50%,
+    #e9237a 75%,
+    #d41f94 100%
+  );
   background-attachment: fixed;
   color: var(--ivory);
   overflow-x: hidden;
