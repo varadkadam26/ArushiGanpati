@@ -4,7 +4,7 @@
 // ────────────────────────────────────────────────────────────
 
 export const invitation = {
-  familyName: "कदम परिवार",
+  familyName: "समस्त नारकर परिवार, आप्तेष्ट आणि मित्रमंडळी",
 
   // Small mantra shown at the very top of the hero
   mantra: "॥ श्री गणेशाय नमः ॥",
