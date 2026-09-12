@@ -50,7 +50,7 @@ export default function Arrival({ reduceMotion }) {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.55, duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-          className="w-44 sm:w-56 aspect-[260/280] text-copper mb-6"
+          className="w-44 sm:w-56 aspect-[260/280] text-white mb-6"
         >
           <GanpatiMark reduceMotion={reduceMotion} className="w-full h-full" />
         </motion.div>
