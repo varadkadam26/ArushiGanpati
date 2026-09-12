@@ -28,7 +28,7 @@ export default function InvitationSection({ reduceMotion }) {
             <motion.p
               key={i}
               variants={reveal}
-              className={`font-display text-2xl sm:text-3xl leading-relaxed mb-6 ${
+              className={`deva text-xl sm:text-2xl leading-relaxed mb-6 ${
                 i === 0 ? "text-white" : "text-white/80 italic"
               }`}
             >

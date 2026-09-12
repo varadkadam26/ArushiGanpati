@@ -61,7 +61,7 @@ export default function Arrival({ reduceMotion }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h1 className="font-display text-4xl sm:text-6xl leading-[1.08] text-ivory">
+          <h1 className="deva text-4xl sm:text-6xl leading-[1.08] text-ivory">
             {invitation.heroHeadlineTop}
             <br />
             <span className="italic text-copper">{invitation.heroHeadlineBottom}</span>
@@ -69,10 +69,10 @@ export default function Arrival({ reduceMotion }) {
 
           <div className="hairline w-16 mx-auto my-6" />
 
-          <p className="font-sans text-sm sm:text-base tracking-[0.25em] text-ivory/70 mb-2">
-            {invitation.heroInviteLine.toUpperCase()}
+          <p className="deva text-sm sm:text-base text-ivory/70 mb-2">
+            {invitation.heroInviteLine}
           </p>
-          <p className="font-display text-lg sm:text-xl text-mist">{invitation.heroDateRange}</p>
+          <p className="deva text-lg sm:text-xl text-mist">{invitation.heroDateRange}</p>
         </motion.div>
       </motion.div>
 
